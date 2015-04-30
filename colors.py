@@ -24,6 +24,9 @@ clear ='\033[H\033[2J'
 
 pink = magenta
 
+import random
+def random_color():
+    return random.choice([yellow, orange, red, magenta, violet, blue, cyan, green])
 if __name__ == '__main__':
     print(clear)
     print(grey + 'Grey' + reset)
